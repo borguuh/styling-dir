@@ -1,0 +1,85 @@
+/* Udemy Defaults */
+
+*,
+html {
+  font-size: 62.5%;
+}
+body {
+  font-weight: 400;
+  line-height: 1.4;
+  color: #1c1d1f;
+  font-size: 1.6rem;
+  /*min-width: 60rem;*/
+}
+h1 {
+  font-size: 2.4rem;
+  padding: 0 2.4rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.25;
+  letter-spacing: -0.5rem;
+  font-weight: 700;
+}
+h2 {
+  font-size: 2.4rem;
+  padding: 0 2.4rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.2;
+  letter-spacing: -0.2rem;
+  font-weight: 700;
+}
+p {
+  max-width: 80rem;
+  font-size: 1.4rem;
+  padding: 0 2.4rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+}
+h3 {
+  font-size: inherit;
+  line-height: 1.2;
+  letter-spacing: -0.2rem;
+  font-weight: 700; /*400/700*/
+}
+/*Up down toggler*/
+.toggler {
+  transition: transform 150ms linear;
+  width: 2rem;
+  height: 2rem;
+}
+/*<img width="240" height="135"........./>*/
+img {
+  max-width: 100%;
+  aspect-ratio: auto 240/135;
+}
+.course-card {
+  min-width: 17.3rem;
+  max-width: 37.5rem;
+}
+.course-title {
+  /*h3*/
+  font-size: 1.6rem;
+  line-height: 1.2;
+  letter-spacing: -0.2rem;
+  font-weight: 700;
+  max-width: 60rem;
+  /*
+  padding: 0 2.4rem;
+  margin-bottom: 0.8rem;
+  */
+}
+.course-author {
+  font-weight: 400;
+  line-height: 1.4rem;
+  font-size: 1.2rem;
+  color: #6a6f73;
+}
+.price {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  font-weight: 700;
+  letter-spacing: -0.2;
+}
+.random {
+  overflow: hidden /*scroll visible auto*/;
+  visibility: collapse /*hidden visible*/;
+}
