@@ -1,4 +1,6 @@
+/******************/
 /* Udemy Defaults */
+/******************/
 
 *,
 html {
@@ -81,5 +83,25 @@ img {
 }
 .random {
   overflow: hidden /*scroll visible auto*/;
-  visibility: collapse /*hidden visible*/;
+  visibility: collapse /*hidden visible inherit*/;
 }
+
+/* Classified Stuffs */
+
+/**/
+
+/* Layout */
+
+/* Spacing*/
+
+/* Size */
+
+/* Position */
+
+/* Typography */
+
+/* Backgrouds */
+
+/* Borders */
+
+/* Effects */
