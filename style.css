@@ -87,21 +87,91 @@ img {
 }
 
 /* Classified Stuffs */
+/* SVR link https://stream-vr-eb9ef5.webflow.io/ */
+.element {
+  /* Layout */
+  display: flex; /* block grid inline inline-block none */
 
+  /* Spacing*/
+  margin: auto;
+  padding: 0%;
+
+  /* Size */
+  width: auto;
+  height: auto;
+  min-width: none;
+  max-width: none;
+  min-height: auto;
+  max-height: fit-content;
+  overflow: hidden; /* auto scroll visible */
+  /*fit: fill contain cover none scale-down;*/
+
+  /* Position */
+  position: relative; /* absolute fixed static sticky */
+  top: auto;
+  left: auto;
+  bottom: auto;
+  z-index: auto;
+
+  /* Typography */
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 0%;
+  color: #1c1d1f;
+  text-align: center; /* end justify left right start */
+  font-style: italic normal oblique;
+  text-decoration: none; /* overline solid underline wavy dashed dotted double line-through */
+  letter-spacing: normal;
+  text-indent: 0%;
+  text-transform: capitalize; /* lowercase none uppercase */
+  text-overflow: clip ellipsis;
+  text-shadow: none #1c1d1f;
+
+  /* Backgrouds */
+  background: fixed; /* none scroll local */
+  background-color: #1c1d1f;
+
+  /* Borders */
+  border-radius: 0% 0% 0% 0%;
+  border-top: 0ch;
+  border-color: #1c1d1f;
+  border-width: 0rem;
+  border-style: hidden; /* dashed dotted double groove inset none outset ridge solid */
+
+  /* Effects */
+  box-shadow: inset; /* inset none transparent */ /* degree */ /* distance */ /*blur*/ /*size*/ /*color*/
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1), 0 10px 10px 0 rgba(0, 0, 0, 0.15);
+  opacity: 60%;
+  outline: auto;
+  box-shadow: 🤔;
+  transform: hmm; /* move-dir-xyz(2px 2px 2px) scale-xyz-dir(1,1,1) rotate-degree-dir(xdeg, ydeg, zdeg) skew(x, y)*/
+  transform-origin: top-val left-val;
+  transition: opacity 200ms ease-in; /*type duration easing*/
+  /*type: margin padding transform text-shadow box shadow size(width) typography position (top left z-index) */
+  filter: blur(5px) brightness() contrast() drop-shadow() none;
+  backface-visibility: hidden visible;
+  cursor: auto pointer not-allowed wait;
+}
 /**/
 
-/* Layout */
+/* Animation Calls */
+/* click */
+/* hover */
+/* scroll into view */
 
-/* Spacing*/
+/* Continuous Interactions*/
+/* 1. Mouse move over an element along X or Y axis */
+/* 2. While scrolling in view */
 
-/* Size */
+/* NavBar Animation */
+/* Tab Animation*/
+/* Dropdown */
+/* Slider */
+/* Page Loading */
+/* Skeleton? */
 
-/* Position */
+/* HTML Semantic Elements*/
+/* Header Footer Nav Main Section Article Aside Address Figure */
 
-/* Typography */
-
-/* Backgrouds */
-
-/* Borders */
-
-/* Effects */
+/*Clip Text*/
